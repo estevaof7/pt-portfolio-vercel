@@ -4,7 +4,7 @@ const path = require('path');
 
 route.get('/', (req, res) => {
     
-    const isEnglish = true;
+    const isEnglish = false;
     
     res.render('index', {
         isEnglish: isEnglish
